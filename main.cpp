@@ -1,4 +1,3 @@
-
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <sys/wait.h>
@@ -7,6 +6,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+#define PORT 8001
 #define SIZE sizeof(struct sockaddr_in)
 
 //Check verifica daca a castigat vreun jucator sau nu
@@ -17,6 +17,21 @@ void catcher(int sig);
 //sirurile astea de jos sunt pipe-urile pentru a comunica intre procese
 int newsockfd[2];
 int pid[2];
+
+void set_signals() {
+    struct sigaction action;
+
+    memset(&action, 0, sizeof( action ) );
+
+    action.sa_handler = catcher;
+    sigaction(SIGPIPE, &action, 0);
+
+    action.sa_handler = catcher;
+    sigaction(SIGTSTP, &action, 0);
+
+    action.sa_handler = catcher;
+    sigaction(SIGINT, &action, 0);
+}
 
 int main()
 {
@@ -39,16 +54,9 @@ int main()
             {' ', ' ', ' '}};
 
     //se populeaza structura cu date campul server
-    struct sockaddr_in server = {AF_INET, 8001, INADDR_ANY};
+    struct sockaddr_in server = {AF_INET, PORT, INADDR_ANY};
     strcpy(ans, "");
-    static struct sigaction act, act2;
-    //cred ca liniile astea de mai jos care incep cu sig mascheaza niste semnale ca sa nu cumva sa
-    //cauzeze terminarea programului in mod anormal
-    act.sa_handler = catcher;
-    sigfillset(&(act.sa_mask));
-    sigaction(SIGPIPE, &act, 0);
-    sigaction(SIGTSTP, &act, 0);
-    sigaction(SIGINT, &act, 0);
+    set_signals();
 
     if ((sockfd[0] = socket(AF_INET, SOCK_STREAM, 0)) == -1)
     {
