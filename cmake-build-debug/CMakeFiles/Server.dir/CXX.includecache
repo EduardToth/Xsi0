@@ -15,13 +15,15 @@ netinet/in.h
 -
 unistd.h
 -
-signal.h
+csignal
 -
-string.h
+cstring
 -
-stdio.h
+cstdio
 -
-stdlib.h
+cstdlib
+-
+iostream
 -
 
 /home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.h
