@@ -1,4 +1,4 @@
-# Install script for directory: /home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server
+# Install script for directory: /home/eduard/Desktop/mennie kell/Xsi0/Server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/eduard/Desktop/mennie kell/Xsi0/Server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

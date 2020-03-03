@@ -5,7 +5,7 @@
 #ifndef SERVER_SERVER_H
 #define SERVER_SERVER_H
 #include <netinet/in.h>
-#define PORT 8001
+#define PORT 8080
 
 class Server{
 private:
