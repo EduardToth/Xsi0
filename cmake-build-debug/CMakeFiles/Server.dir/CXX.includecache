@@ -6,27 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/main.cpp
-ctype.h
--
-sys/types.h
--
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.cpp
+Server.h
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.h
 sys/socket.h
 -
 netinet/in.h
 -
-sys/types.h
--
-sys/wait.h
--
 unistd.h
 -
-signal.h
+csignal
 -
-string.h
+cstring
 -
-stdio.h
+cstdio
 -
-stdlib.h
+cstdlib
 -
+iostream
+-
+
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.h
+netinet/in.h
+-
+
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/main.cpp
+Server.h
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.h
 
