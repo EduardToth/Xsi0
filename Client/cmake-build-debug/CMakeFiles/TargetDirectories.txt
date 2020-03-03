@@ -1,0 +1,3 @@
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Client/cmake-build-debug/CMakeFiles/Client.dir
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Client/cmake-build-debug/CMakeFiles/edit_cache.dir

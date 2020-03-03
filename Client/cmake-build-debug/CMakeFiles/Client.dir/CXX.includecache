@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Client/Client.cpp
+Client.h
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Client/Client.h
+
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Client/Client.h
+sys/socket.h
+-
+netinet/in.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+signal.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Client/main.cpp
+Client.h
+/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Client/Client.h
+
