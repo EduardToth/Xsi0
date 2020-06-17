@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.cpp
+/home/eduard/Desktop/Xsi0/Server.cpp
 Server.h
-/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.h
+/home/eduard/Desktop/Xsi0/Server.h
 sys/socket.h
 -
 netinet/in.h
@@ -26,11 +26,11 @@ cstdlib
 iostream
 -
 
-/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.h
+/home/eduard/Desktop/Xsi0/Server.h
 netinet/in.h
 -
 
-/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/main.cpp
+/home/eduard/Desktop/Xsi0/main.cpp
 Server.h
-/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.h
+/home/eduard/Desktop/Xsi0/Server.h
 

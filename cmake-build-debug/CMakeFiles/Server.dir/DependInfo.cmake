@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/Server.cpp" "/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/cmake-build-debug/CMakeFiles/Server.dir/Server.cpp.o"
-  "/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/main.cpp" "/home/eduard/Desktop/dolgaim/AnIII/semestrul2/PAD/laborator/Server/cmake-build-debug/CMakeFiles/Server.dir/main.cpp.o"
+  "/home/eduard/Desktop/Xsi0/Server.cpp" "/home/eduard/Desktop/Xsi0/cmake-build-debug/CMakeFiles/Server.dir/Server.cpp.o"
+  "/home/eduard/Desktop/Xsi0/main.cpp" "/home/eduard/Desktop/Xsi0/cmake-build-debug/CMakeFiles/Server.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
